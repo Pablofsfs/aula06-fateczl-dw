@@ -1,29 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body bgcolor="black">
-    <Div>
-    <h1 font-color="white" font-size"15px"> TE AMO MESI </h1>
-        <!-- imagem web-->
-   <center><img src="https://i.pinimg.com/236x/62/51/8d/62518dea2452bdfb526f4043b30a867a.jpg" alt="mesi" width="500px" height="400px"></center> 
-       <!-- imagem local-->
-   <center><img src="./imagens/mesi.jpg" alt="mesi" width="500px" height="400px"></center> 
-    <!-- testando audio-->
-       <audio controls>
-        <source src="./audios/trap-future-bass-royalty-free-music-167020.mp3">
-   </audio>
-   <video controls>
-        <source src="./videos/miniYTPBR - Te agarro pela cabeça e te JOOJ  _ psicopooper.mp4">
 
-   </video>
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/yuJQtOa_L2Y?si=77UrhVtHA71RCE3R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<body>
+    <h2> inserindo multimedias</h2>
+    <Div>
+        <h1 font-color="white" font-size"15px"> TE AMO MESI </h1>
+        <!-- imagem web-->
+        <center><img src="https://i.pinimg.com/236x/62/51/8d/62518dea2452bdfb526f4043b30a867a.jpg" alt="mesi"
+                width="500px" height="400px"></center>
+        <!-- imagem local-->
+        <center><img src="./imagens/mesi.jpg" alt="mesi" width="500px" height="400px"></center>
+        <!-- testando audio-->
+        <audio controls>
+            <source src="./audios/trap-future-bass-royalty-free-music-167020.mp3">
+        </audio>
+        <video controls>
+            <source src="./videos/miniYTPBR - Te agarro pela cabeça e te JOOJ  _ psicopooper.mp4">
+
+        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yuJQtOa_L2Y?si=77UrhVtHA71RCE3R"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
     </Div>
-   <div>
-   <a href="https://www.google.com.br/?hl=pt-BR"> Google</a>
-</Div>
+    <div>
+        <h2> criando um link</h2>
+        <a href="https://www.google.com.br/?hl=pt-BR"> Google</a>
+    </Div>
+    <div>
+        <h2> Criando uma tabela</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th> Nome</th>
+                    <th> Idade</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td> João</td>
+                    <td> 25</td>
+                </tr>
+                <tr>
+                    <td> Maria</td>
+                    <td> 30 </td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th> Há um total de 2 Registros</th>
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <h2> criando listas </h2>
+        <h3> Lista de Campeões do Mundo FIFA</h3>
+        <ol>
+            <li> Brasil</li>
+            <li> Alemanha</li>
+            <li> Itália</li>
+            <li> Argentina</li>
+            <li> Uruguai</li>
+            <li> Espanha</li>
+            <li> Inglaterra</li>
+        </ol>
+        <ul>
+            <li> Brasil</li>
+            <li> Alemanha</li>
+            <li> Itália</li>
+            <li> Argentina</li>
+            <li> Uruguai</li>
+            <li> Espanha</li>
+            <li> Inglaterra</li>
+        </ul>
+
+    </div>
+    <div>
+        <h2> Criando Formulário</h2>
+        <form action="#" method="post">
+            <label> Nome Completo</label>  <br> 
+            <input type="text" id="nome_completo" name="nome_completo" /> <br>
+            <label> e-mail</label>  <br> 
+            <input type="email" id="email_aluno" name="email_aluno" /> <br>
+            <label> senha</label>  <br> 
+            <input type="password" id="senha_aluno" name="senha_aluno" /> <br>
+            <label> Data de Nascimento</label>  <br> 
+            <input type="date" id="dt_nascimento_aluno" name="dt_nascimento_aluno" /> <br>
+            <label> cpf</label>  <br> 
+            <input type="number" id="cpf_aluno" name="cpf_aluno" /> <br>
+            <label>Sexo</label>  <br> 
+            <input type="radio" value="Masculino" id="radio_sexo_masc" name="radio_sexo"> Masculino
+            <input type="radio" value="Feminino" id="radio_sexo_fem" name="radio_sexo">Feminino
+            <input type="radio" value="Indefinido" id="radio_sexo_ind" name="radio_sexo">Indefinido
+            <label> Minha cor favorita</label>  <br> 
+            <input type="color"  id="cor_aluno" name="cor_aluno"> <br>
+            <label> Minhas linguagens favoritas</label>
+            <select id="linguagem_favorita">  <br> 
+                <option value="Java">Java</option> <br> 
+                <option value="Python">Python</option> <br> 
+                <option value="PHP">PHP</option> <br> 
+                <option value="Javascript">JavaScript</option> <br> 
+            </select>  <br> 
+            <label> Meu idioma favoritas</label> <br> 
+            <select id="idioma_favorita"> <br> 
+                <option value="Portuges">Portugues</option> <br> 
+                <option value="Ingles">Ingles</option> <br>  <br> 
+                <option value="Espanhol">Espanhol</option> <br> 
+                <option value="Frances">Frances</option> <br> 
+            </select>  <br> 
+            <label> Comentario</label>  <br> 
+                <textarea id="comentario_aluno" rows="10"> </textarea> <br> 
+                <label> Aceita todos os termos</label> <br> 
+                <input type="checkbox" id="aceite" nome="aceite" required> <br> 
+                <input type="submit" id="enviar_form" nome="enviar_form" value="Enviar"> <br> 
+
+        </form>
+
+        <!-- CRTL + ; Comentar Código-->
+        <!-- Alt + shift + F; Utilizado para organizar e identar o código-->
+        <!-- Alt + shift + seta; Copiar linha para ciam ou para baixo-->
+           <!-- Ctrl + o ; Selcionar texto igual-->
+
+
+    </div>
 </body>
+
 </html>
